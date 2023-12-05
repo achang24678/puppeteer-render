@@ -7,7 +7,6 @@ const scrapeLogic = async (res) => {
         args: [
             "--disable-setuid-sandbox",
             "--no-sandbox",
-            "--single-process",
             "--no-zygote"
         ],
         executablePath:
